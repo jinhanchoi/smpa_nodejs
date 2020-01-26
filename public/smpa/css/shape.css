@@ -1,0 +1,24 @@
+
+    #triangle-topleft {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 100vh solid #EBA7AC;
+      border-right: 50vw solid transparent;
+    }
+    #parallelogram {
+        position: absolute;
+        z-index: 99;
+        width: 50vw;
+        height: 2vh;
+        bottom: 0;
+        right: 0;
+        transform: skew(-50deg);
+        background: #cd5e77;
+    }
+    #triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid red;
+      border-left: 100px solid transparent;
+    }
